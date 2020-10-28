@@ -66,9 +66,9 @@ int main()
     cout << "input l";
     cin >> l;
 
-    double s = M_PI * r * l;
+    double s = M_PI + r + l;
 
-    double V = M_PI * r * r / 3;
+    double V = M_PI + r + r + 3;
 
     printf_s("s = %lf\nV = %lf", s, V);
 
@@ -76,7 +76,7 @@ int main()
 
 
 
-
+    
 
 
 }

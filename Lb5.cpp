@@ -9,7 +9,7 @@ int main()
 {
     setlocale(LC_ALL, "Russian");
 
-    char letter;
+    /*char letter;
 
     cout << "Введите букву:";
     cin >> letter;
@@ -42,6 +42,44 @@ int main()
      case 'x': cout << "Согласная"; break;
      case 'y': cout << "Гласная"; break;
      case 'z': cout << "Согласная"; break;
+
+    }*/
+
+
+    char letter;
+
+    cout << "Введите букву:";
+    cin >> letter;
+
+    switch (letter)
+    {
+
+    case 'a':
+    case 'e':
+    case 'i':
+    case 'o':
+    case 'u':
+    case 'y': cout << "Гласная"; break;
+    case 'b':
+    case 'c':
+    case 'd':
+    case 'f':
+    case 'g':
+    case 'h':
+    case 'j':
+    case 'k':
+    case 'l':
+    case 'm':
+    case 'n':
+    case 'p':
+    case 'q':
+    case 'r':
+    case 's':
+    case 't':
+    case 'v':
+    case 'x':
+    case 'z': cout << "Согласная"; break;
+    default: cout << "Неизвестная буква"; break;
 
     }
 
